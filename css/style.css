@@ -2,5 +2,99 @@ body{
     margin: 0;
 }
 .headAcc{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DDC583;
     border: 2px solid red;
+}
+.imagelg{
+    border: 2px solid purple;
+    background-image: url("./img/motv.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.elemAcc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 1000px;
+    border: 2px solid purple;
+}
+.txt_Accu{
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid purple;
+}
+.txt_Coac{
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid purple;
+}
+.txt_Pens{
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid purple;
+}
+a{
+    text-decoration: none;
+    color: #CBA05F;
+}
+.imageAcc_part1{
+    border: 2px solid yellow;
+    height: 1000px;
+    background-image: url("./img/hqdefault.jpeg");
+    background-size: cover;
+}
+.coprsAcc_part2{
+    border: 3px solid rebeccapurple;
+    height: 500px;
+}
+.bloc_part2{
+    display: flex;
+    align-items: center;
+}
+.vdeo_coprsAcc_part2{
+    border-radius: 20px;
+    margin: 50px auto;
+    height: 400px;
+    width: 700px;
+}
+.foot{
+    height: 250px;
+    background-color: black;
+}
+.foot_rs_txt{
+    color: #CBA05F;
+    font-size: 1.5em;
+    font-family:fantasy ;
+}
+.foot_rs_lg{
+    border: 2px solid white;
+    justify-content: space-between;
+    width: 130px;
+    display: flex;
+    
+}
+.foot_rs_instg{
+    background-image: url("./img/instagram\ \(1\).png");
+    background-size: cover;
+    border: 2px solid red;
+    height: 30px;
+    width: 30px;
+}
+.foot_rs_fb{
+    background-image: url("./img/facebook\ \(1\).png");
+    background-size: cover;
+    border: 2px solid red;
+    height: 30px;
+    width: 30px;
+}
+.foot_rs_in{
+    background-image: url("./img/linkedin.png");
+    background-size: cover;
+    border: 2px solid red;
+    height: 30px;
+    width: 30px;
 }
